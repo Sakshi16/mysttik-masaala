@@ -404,26 +404,26 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
-  color: #DB9A64;
+  color: #dc7c2c;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #DB9A64;
+  border: 1px solid #dc7c2c;
   letter-spacing: 3px;
   text-align: center;
-  color: #DB9A64 !important;
+  color: #dc7c2c !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #DB9A64;
+  background: #dc7c2c;
   color: #fff !important;
-  border: 1px solid #DB9A64;
+  border: 1px solid #dc7c2c;
 }
 
 /* line 22, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_btn.scss */
@@ -439,7 +439,7 @@ h3 {
 /* line 29, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001D38+0,fd8e5e+100 */
-  background: #DB9A64;
+  background: #dc7c2c;
   /* IE6-9 */
   color: #fff;
   display: inline-block;
@@ -465,7 +465,7 @@ h3 {
 /* line 49, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001D38+0,fd8e5e+100 */
-  background: #001D38;
+  background: #fd8e5e;
   /* IE6-9 */
   color: #fff !important;
 }
@@ -699,8 +699,8 @@ h3 {
 
 /* line 34, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_section_title.scss */
 .section_title p {
-  font-size: 16px;
-  color: #DB9A64;
+  font-size: 26px;
+  color: #fff;
   line-height: 28px;
   margin-bottom: 0;
   font-weight: 400;
@@ -1351,7 +1351,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/mm-banner.jpg);
+  background-image: url(../img/banner/mm-banner-3.png);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_slider.scss */
@@ -1367,7 +1367,7 @@ h3 {
 
 /* line 20, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1765,7 +1765,7 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_about.scss */
 .about_area {
   padding-top: 160px;
-  padding-bottom: 320px;
+  padding-bottom: 250px;
   background: #FFFBF5;
   position: relative;
 }
@@ -1820,7 +1820,7 @@ h3 {
 .about_area .about_info_wrap .long_dash {
   height: 3px;
   width: 70px;
-  background: #DB9A64;
+  background: #dc7c2c;
   display: inline-block;
   margin-bottom: 34px;
   margin-top: 17px;
@@ -1866,7 +1866,7 @@ h3 {
 /* line 58, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_about.scss */
 .about_area .about_info_wrap .food_list li span {
   padding-left: 14px;
-  color: #DB9A64;
+  color: #dc7c2c;
   font-size: 16px;
   font-weight: 400;
 }
@@ -2013,7 +2013,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 160px 0;
+  padding: 50px 0;
 }
 
 /* line 9, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
@@ -2077,7 +2077,7 @@ h3 {
   background: #fff;
   padding: 50px 40px;
   border-radius: 10px;
-  border: 2px solid #DB9A64;
+  border: 2px solid #dc7c2c;
   margin-bottom: 30px;
   position: relative;
 }
@@ -2096,8 +2096,8 @@ h3 {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   bottom: -11px;
-  border-bottom: 2px solid #DB9A64;
-  border-right: 2px solid #DB9A64;
+  border-bottom: 2px solid #dc7c2c;
+  border-right: 2px solid #dc7c2c;
 }
 
 /* line 66, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
@@ -2162,7 +2162,7 @@ h3 {
 
 /* line 114, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author .icon a {
-  color: #DB9A64;
+  color: #dc7c2c;
   font-size: 13px;
   margin-right: 3px;
 }
@@ -2286,16 +2286,20 @@ h3 {
   }
 }
 
+.order_area{
+  background-color: #FFFBF5;
+}
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_gallery.scss */
 .gallery_area {
   overflow: hidden;
-  padding-top: 160px;
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_gallery.scss */
   .gallery_area {
     padding: 60px 10px;
+    display: none;
   }
 }
 
@@ -2505,7 +2509,7 @@ h3 {
 /* line 29, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_reservation.scss */
 .Reservation_area .book_Form {
   margin-bottom: 30px;
-  background: #DB9A64;
+  background: #dc7c2c;
   padding: 34px 40px;
 }
 
@@ -2648,8 +2652,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
 .Delicious_area {
-  padding-bottom: 110px;
-  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
 /* line 4, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
@@ -2706,12 +2710,12 @@ h3 {
 
 /* line 36, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
 .Delicious_area .tablist_menu .nav li a.active .single_menu .icon i {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 40, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
 .Delicious_area .tablist_menu .nav li a.active .single_menu h4 {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 44, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
@@ -2721,7 +2725,7 @@ h3 {
   width: 100%;
   height: 2px;
   content: '';
-  background: #DB9A64;
+  background: #dc7c2c;
   bottom: 0;
 }
 
@@ -2810,7 +2814,7 @@ h3 {
   display: block;
   font-weight: 400;
   font-size: 26px;
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_bradcam.scss */
@@ -3307,8 +3311,8 @@ h3 {
 
 /* line 9, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 145px;
-  padding-bottom: 129px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -3323,6 +3327,7 @@ h3 {
   /* line 16, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
+    text-align: center;
   }
 }
 
@@ -3337,7 +3342,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 18px;
   font-weight: 500;
-  color: #DB9A64;
+  color: #FFE8C3;
   text-transform: capitalize;
   margin-bottom: 40px;
 }
@@ -3380,7 +3385,7 @@ h3 {
 
 /* line 51, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a:hover {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 57, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3400,8 +3405,8 @@ h3 {
 
 /* line 66, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
-  color: #DB9A64;
-  border-bottom: 1px solid #DB9A64;
+  color: #dc7c2c;
+  border-bottom: 1px solid #dc7c2c;
 }
 
 /* line 72, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3412,8 +3417,8 @@ h3 {
 
 /* line 76, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
-  color: #DB9A64;
-  border-bottom: 1px solid #DB9A64;
+  color: #dc7c2c;
+  border-bottom: 1px solid #dc7c2c;
 }
 
 /* line 80, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3436,7 +3441,7 @@ h3 {
 
 /* line 95, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 101, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3478,7 +3483,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #DB9A64;
+  background: #dc7c2c;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -3498,13 +3503,13 @@ h3 {
 
 /* line 148, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 /* line 150, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .copy-right_text .footer_border {
   border-top: 1px solid #31261B;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 /* line 154, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3524,7 +3529,7 @@ h3 {
 
 /* line 162, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 167, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
@@ -3560,7 +3565,7 @@ h3 {
 
 /* line 191, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
-  color: #DB9A64 !important;
+  color: #dc7c2c !important;
   border-color: transparent;
 }
 
@@ -5058,7 +5063,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #DB9A64 0%, #DB9A64 99%);
+  background: -webkit-linear-gradient(131deg, #dc7c2c 0%, #dc7c2c 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5569,7 +5574,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 549, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
@@ -5637,7 +5642,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #DB9A64;
+  background-color: #dc7c2c;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5865,7 +5870,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #DB9A64;
+  background: #dc7c2c;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -6113,7 +6118,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #DB9A64;
+  color: #dc7c2c;
 }
 
 /* line 1213, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog.scss */
@@ -6542,7 +6547,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #DB9A64;
+  color: #dc7c2c;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6569,7 +6574,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #DB9A64;
+  background-color: #dc7c2c;
   border-radius: 50%;
 }
 
